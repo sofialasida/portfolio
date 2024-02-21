@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title> Sobre mi | Sofía Lasida </title>
+
+    
+    <meta name="description" content="P">
+    <meta name="author" content="Sofía Lasida">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/rsq1zay.css">
+
+    <link rel="icon" href="imagenes/Home/SL.svg">
+
+</head>
+
+<body>
+    <div id="overflow">
+        <script>
+            window.onload = function() {
+                const cruzImg = document.querySelector("img[src='imagenes/Nav/cruz.svg']");
+                cruzImg.addEventListener("click", function() {
+                    const toggleMenu = document.getElementById("toggleMenu");
+                    toggleMenu.checked = false;
+                });
+            };
+        </script>
+
+        <header>
+            <nav>
+                <div id="logo_grupo" id="sideMenu"> 
+                    <p id="Logo"> <a href="index.html"> sofía lasida </a> </p>
+                    <p id="Logo_chico"> <a href="index.html"> SL </a> </p>
+                </div>
+                <div>
+                    <input type="checkbox" id="toggleMenu" class="checkbox-hidden">
+                    <label for="toggleMenu" id="hamburguesa"><img src="imagenes/Nav/borgir.svg"></label>
+                    <div class="side-menu">
+                        <div id="mini_nav">
+                            <p id="Logo_chico"> <a href="#"> SL </a> </p>
+                            <img src="imagenes/Nav/cruz.svg">
+                        </div>
+                        <ul>
+                            <li> <a href="index.html">home</a> </li>
+                            <li> <a href="trabajos.html">trabajos</a> </li>
+                            <li> <a href="sobremi.html">sobre mí</a> </li>
+                            <li id="redes_nav">
+                                <a href="https://www.behance.net/sofialasida"target="_blank"> <img src="imagenes/Icons/behance_blanco.svg"> </a>
+                                <a href="mailto:sofialasida@gmail.com"> <img src="imagenes/Icons/mail_blanco.svg"> </a> 
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+                <ul id="menu_desktop">
+                    <li> <a href="trabajos.html">trabajos</a> </li>
+                    <li> <a href="sobremi.html">sobre mí</a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="sobre_mi">
+                <div class="columnado"> 
+                <img src="imagenes/Sobremi/Yo.png" class="col_grande col yo_desktop">
+                    <div class="col">
+                        <h3> un poco </h3>
+                        <h1> Sobre mi </h1>
+                        <img src="imagenes/Sobremi/Yo.png" class="col yo_mobile">
+                        <p> <strong> ¡Hola! Soy Sofía Lasida, una estudiante de diseño gráfico apasionada por crear, aprender y compartir mi trabajo con el mundo :) Actualmente resido en Montevideo, Uruguay, pero ocasionalmente me pueden encontrar en el Sur de la Florida, EEUU. </strong> </p>
+                        <p> Cuando no estoy fotosintetizando frente a la pantalla de mi computadora, me pueden encontrar leyendo, cuidando de mis plantas o picando una cantidad poco saludable de maní con chocolate. </p>
+                        <p> Aunque todos mis diseños comparten una misma esencia, me gusta ser versátil y experimentar para adaptarme a las necesidades específicas de cada proyecto. Me considero una persona comunicativa, que disfruta de la resolución de desafíos a través de la creatividad y originalidad. Me apasiona trabajar sobre el diseño web, la tipografía y, sobre todo, el lettering. </p>
+                    </div>
+                </div>
+            
+            </section>
+                
+            <section id="filosofia">
+                <div class="titulo_filosofia">
+                    <h1> Filosofía </h1>
+                    <span></span>
+                </div>    
+                <ul>
+                    <li> 
+                        <div> 
+                            <img src="imagenes/Sobremi/semilla.svg">
+                            <h3> semillas de ideas </h3>
+                        </div>
+                        <p> Dedico tiempo a investigar y comprender el contexto del proyecto, así como las tendencias y el público objetivo. Esto me ayuda a obtener una base sólida de conocimiento antes de comenzar a diseñar. </p>
+                    </li>
+                    <li class="borde"> 
+                        <div> 
+                            <img src="imagenes/Sobremi/brote.svg">
+                            <h3> brote creativo </h3>
+                        </div>
+                        <p> Luego, me sumerjo en un proceso de exploración creativa, donde genero múltiples ideas y conceptos. Experimento con diferentes enfoques y soluciones, buscando la combinación justa entre innovación y funcionalidad. </p>
+                    </li>
+                    <li> 
+                        <div> 
+                            <img src="imagenes/Sobremi/flor.svg">
+                            <h3> florecimiento del diseño </h3>
+                        </div>
+                        <p> Finalmente, paso a la etapa de creación, donde refino las ideas seleccionadas y las transformo en diseños concretos, asegurando que el resultado final cumpla con los objetivos establecidos. </p>
+                    </li>
+                </ul>
+            </section>
+
+            <footer>
+                <div id="contacto">
+                    <img src="imagenes/Footer/Flores_1_D.svg" class="flores_desktop">
+                    <img src="imagenes/Footer/Flores_arriba.svg" class="flores_mobile">
+                    <div class="contacto_contenido">
+                        <h2>Ponete en contacto</h2>
+                        <p>¿Tenés un nuevo proyecto, colaboración o consulta general? Me encantaría saber de vos</p>
+                        <div class="mail">
+                            <img class="mail_icon_i" src="imagenes/Footer/Flecha_mail_I.svg">
+                            <a href="mailto:sofialasida@gmail.com"> <p class="mail_txt">sofialasida@gmail.com</p> </a>
+                            <img class="mail_icon_d" src="imagenes/Footer/Flecha_mail_d.svg">
+                        </div>
+                    </div>
+                    <img src="imagenes/Footer/Flores_1_D.svg" class="flores_desktop">
+                    <img src="imagenes/Footer/flores_abajo.svg" class="flores_mobile">
+                </div>
+                <div id="footer">
+                    <div class="footer_content">
+                        <p> Textos + imágenes + programación © 2024 Sofía Lasida </p>
+                        <ul>
+                            <li> <a href="https://www.behance.net/sofialasida" target="_blank"> <img src="imagenes/Icons/Behance.svg"> </a> </li>
+                            <li> <a href="mailto:sofialasida@gmail.com"> <img src="imagenes/Icons/Mail.svg"> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>    

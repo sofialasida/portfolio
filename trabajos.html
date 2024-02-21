@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title> Trabajos | Sofía Lasida </title>
+
+    
+    <meta name="description" content="P">
+    <meta name="author" content="Sofía Lasida">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/rsq1zay.css">
+
+    <link rel="icon" href="imagenes/Home/SL.svg">
+
+</head>
+
+<body>
+    <div id="overflow">
+        <script>
+            window.onload = function() {
+                const cruzImg = document.querySelector("img[src='imagenes/Nav/cruz.svg']");
+                cruzImg.addEventListener("click", function() {
+                    const toggleMenu = document.getElementById("toggleMenu");
+                    toggleMenu.checked = false;
+                });
+            };
+        </script>
+
+        <header>
+            <nav>
+                <div id="logo_grupo" id="sideMenu"> 
+                    <p id="Logo"> <a href="index.html"> sofía lasida </a> </p>
+                    <p id="Logo_chico"> <a href="index.html"> SL </a> </p>
+                </div>
+                <div>
+                    <input type="checkbox" id="toggleMenu" class="checkbox-hidden">
+                    <label for="toggleMenu" id="hamburguesa"><img src="imagenes/Nav/borgir.svg"></label>
+                    <div class="side-menu">
+                        <div id="mini_nav">
+                            <p id="Logo_chico"> <a href="#"> SL </a> </p>
+                            <img src="imagenes/Nav/cruz.svg">
+                        </div>
+                        <ul>
+                            <li> <a href="index.html">home</a> </li>
+                            <li> <a href="trabajos.html">trabajos</a> </li>
+                            <li> <a href="sobremi.html">sobre mí</a> </li>
+                            <li id="redes_nav">
+                                <a href="https://www.behance.net/sofialasida"target="_blank"> <img src="imagenes/Icons/behance_blanco.svg"> </a>
+                                <a href="mailto:sofialasida@gmail.com"> <img src="imagenes/Icons/mail_blanco.svg"> </a> 
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+                <ul id="menu_desktop">
+                    <li> <a href="trabajos.html">trabajos</a> </li>
+                    <li> <a href="sobremi.html">sobre mí</a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="trabajos">
+                <h1> Mis trabajos </h1>
+                <ul class="columnado">
+                    <li class="col"> <!-- el tunel -->
+                        <article>
+                            <a href="eltunel.html">
+                                <div class="img-hover-zoom">
+                                    <img src="imagenes/Trabajos/Eltunel.jpg" alt="Túnica de médico con logo bordado">
+                                </div>
+
+                                <div>
+                                    <h4 class="color_identidad"> Identidad </h4>
+                                    <div class="titulo_trabajos">
+                                        <img src="imagenes/Flores_proyectos/Jacinto -  el túnel.svg">
+                                        <h2> El túnel </h2>
+                                    </div>
+                                    <h3> rediseño de farmacia </h3>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+
+                    <li class="col"> <!-- fungica -->
+                        <article>
+                            <a href="fungica.html">
+                                <div class="img-hover-zoom">
+                                    <img src="imagenes/Trabajos/Fungica.jpg" alt="Portada de revista entreabierta">
+                                </div>
+
+                                <div>
+                                    <h4 class="color_editorial"> Editorial </h4>
+                                    <div class="titulo_trabajos">
+                                        <img src="imagenes/Flores_proyectos/clivia - fungica.svg">
+                                        <h2> Fúngica </h2>
+                                    </div>
+                                    <h3> Revista sobre el reino fungi </h3>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+
+                    <li class="col"> <!-- sarcastica -->
+                        <article>
+                            <a href="sarcastica.html">
+                                <div class="img-hover-zoom">
+                                    <img src="imagenes/Trabajos/Sarcastica.jpg" alt="Título sarcástica en backslanted">
+                                </div>
+
+                                <div>
+                                    <h4 class="color_tipografia"> Tipografía </h4>
+                                    <div class="titulo_trabajos">
+                                        <img src="imagenes/Flores_proyectos/tulipan - sarcastica.svg">
+                                        <h2> Sarcástica  </h2>
+                                    </div>
+                                    <h3> tipografía backslanted </h3>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+
+                    <li class="col"> <!-- petrona -->
+                        <article>
+                            <a href="petrona.html">
+                                <div class="img-hover-zoom">
+                                    <img src="imagenes/Trabajos/Petrona.jpg" alt="Portada de catálogo de Petrona Viera">
+                                </div>
+
+                                <div>
+                                    <h4 class="color_editorial"> Editorial </h4>
+                                    <div class="titulo_trabajos">
+                                        <img src="imagenes/Flores_proyectos/gerbera - petrona.svg">
+                                        <h2> Petrona Viera  </h2>
+                                    </div>
+                                    <h3> catálogo de arte </h3>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+
+                    <li class="col"> <!-- Museos -->
+                        <article>
+                            <a href="museosenlanoche.html">
+                                <div class="img-hover-zoom">
+                                    <img src="imagenes/Trabajos/Museos.jpg" alt="Inicio de página de Museos en la noche">
+                                </div>
+
+                                <div>
+                                    <h4 class="color_web"> Web </h4>
+                                    <div class="titulo_trabajos">
+                                        <img src="imagenes/Flores_proyectos/celidonia - museos en la noche.svg">
+                                        <h2> Museos en la noche </h2>
+                                    </div>
+                                    <h3> diseño de landing page</h3>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+
+                    <li class="col"> <!-- Vino -->
+                        <article>
+                            <a href="centurygothic.html">
+                                <div class="img-hover-zoom">
+                                    <img src="imagenes/Trabajos/CenturyGothic.jpg" alt="Vino Century Gothic sobre mesada">
+                                </div>
+
+                                <div>
+                                    <h4 class="color_tipografia"> Tipografía </h4>
+                                    <div class="titulo_trabajos">
+                                        <img src="imagenes/Flores_proyectos/loto - vino.svg">
+                                        <h2 lang="en"> Century Gothic </h2>
+                                    </div>
+                                    <h3> botella de vino </h3>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+
+                    <li class="col"> <!-- Wynwood -->
+                        <article>
+                            <a href="wynwood.html">
+                                <div class="img-hover-zoom">
+                                    <img src="imagenes/Trabajos/Wynwood.jpg" alt="Landing page de wynwood en una computadora">
+                                </div>
+
+                                <div>
+                                    <h4 class="color_web"> Web </h4>
+                                    <div class="titulo_trabajos">
+                                        <img src="imagenes/Flores_proyectos/narciso - wynwood.svg">
+                                        <h2> Wynwood </h2>
+                                    </div>
+                                    <h3> diseño y programación </h3>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+
+                    <li class="col"> <!-- Catálogo tip -->
+                        <article>
+                            <a href="catalogotip.html">
+                                <div class="img-hover-zoom">
+                                    <img src="imagenes/Trabajos/Catalogotip.jpg" alt="Exterior de catálogo tipográfico">
+                                </div>
+
+                                <div>
+                                    <h4 class="color_tipografia"> Tipografía </h4>
+                                    <div class="titulo_trabajos">
+                                        <img src="imagenes/Flores_proyectos/hibisco - catalogo tip.svg">
+                                        <h2> Catálogo</h2>
+                                    </div>
+                                    <h3> tipográfico </h3>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+
+                    <li class="col"> <!-- Caggiani -->
+                        <article>
+                            <a href="caggiani.html">
+                                <div class="img-hover-zoom">
+                                    <img src="imagenes/Trabajos/Caggiani.jpg" alt="Logo Caggiani bordado">
+                                </div>
+
+                                <div>
+                                    <h4 class="color_identidad"> Identidad </h4>
+                                    <div class="titulo_trabajos">
+                                        <img src="imagenes/Flores_proyectos/bígaro - caggiani.svg">
+                                        <h2> Caggiani </h2>
+                                    </div>
+                                    <h3> tienda de sombreros </h3>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+
+                    <li class="col"> <!-- Villa Dolores -->
+                        <article>
+                            <a href="villadolores.html">
+                                <div class="img-hover-zoom">
+                                    <img src="imagenes/Trabajos/VillaDolores.jpg" alt="Señalética con pictograma de flamencos en zoológico">
+                                </div>
+
+                                <div>
+                                    <h4 class="color_identidad"> Identidad </h4>
+                                    <div class="titulo_trabajos">
+                                        <img src="imagenes/Flores_proyectos/nomeolvides - villa dolores.svg">
+                                        <h2> Villa Dolores </h2>
+                                    </div>
+                                    <h3> pictogramas y señalética </h3>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    
+                </ul>
+
+            </section>
+
+
+            <footer>
+                <div id="contacto" class="line_footer">
+                    <img src="imagenes/Footer/Flores_1_D.svg" class="flores_desktop">
+                    <img src="imagenes/Footer/Flores_arriba.svg" class="flores_mobile">
+                    <div class="contacto_contenido">
+                        <h2>Ponete en contacto</h2>
+                        <p>¿Tenés un nuevo proyecto, colaboración o consulta general? Me encantaría saber de vos</p>
+                        <div class="mail">
+                            <img class="mail_icon_i" src="imagenes/Footer/Flecha_mail_I.svg">
+                            <a href="mailto:sofialasida@gmail.com"> <p class="mail_txt">sofialasida@gmail.com</p> </a>
+                            <img class="mail_icon_d" src="imagenes/Footer/Flecha_mail_d.svg">
+                        </div>
+                    </div>
+                    <img src="imagenes/Footer/Flores_1_D.svg" class="flores_desktop">
+                    <img src="imagenes/Footer/flores_abajo.svg" class="flores_mobile">
+                </div>
+                <div id="footer">
+                    <div class="footer_content">
+                        <p> Textos + imágenes + programación © 2024 Sofía Lasida </p>
+                        <ul>
+                            <li> <a href="https://www.behance.net/sofialasida" target="_blank"> <img src="imagenes/Icons/Behance.svg"> </a> </li>
+                            <li> <a href="mailto:sofialasida@gmail.com"> <img src="imagenes/Icons/Mail.svg"> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>    
